@@ -72,6 +72,13 @@ class _AssetsPageState extends State<AssetsPage> {
           height: 200,
         ),
         centerTitle: true,
+        leading: IconButton(
+          onPressed: () => Get.back(),
+          icon: const Icon(
+            Icons.arrow_back_ios,
+            color: AppColors.neutralGray500,
+          )
+        ),
       ),
       body: Column(
         children: [
